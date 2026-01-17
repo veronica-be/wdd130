@@ -4,7 +4,8 @@ nav {
     1. The background color will be the color "darkblue", which is a valid, named color.
     Padding, or area between the content and border is set to 10 pixels for readability.  */
 
-    background-color: darkblue;
+    background-color: #636B2F;
+    ;
     padding: 10px;
 }
 
@@ -25,10 +26,11 @@ h1 {
     
     1. The foreground, font color is set to darkblue.*/
 
-    color: darkblue;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-img {
+main img {
 
     /*This CSS rule references all the <img > (image) elements as the selector and applies the following declarations:
     
@@ -50,5 +52,33 @@ p {
     
     1. Padding between the paragraph content and the border is set to 10 pixels.*/
 
-    padding: 10px;
+    padding: 0px;
+}
+
+main {
+    max-width: 830px;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+aside {
+    width: 20rem;
+    margin: 0 auto;
+    border: 1rem solid whitesmoke;
+    padding: 15px blue;
+    background-color: #636B2F;
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer {
+    margin-top: 1rem;
+    border-top: 2rem;
+    text-align: center;
 }
