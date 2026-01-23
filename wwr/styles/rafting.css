@@ -69,7 +69,7 @@ header img {
 header nav li {
     display: inline-block;
     width: auto;
-    padding: 1rem;
+    padding: 0rem;
     margin-left: 5rem;
     margin-top: 1rem;
 }
