@@ -1,13 +1,8 @@
 :root {
     --dark-olive-green: rgba(99, 107, 47);
-    /* --medium-olive-green: rgba(78, 83, 59); */
-    /* --light-olive-green: rgba(129, 134, 74); */
     --dark-green: rgba(51, 51, 0);
-    /* --lighter-green: rgba(178, 178, 127); */
     --lightest-green: rgba(204, 204, 153);
     --beige: rgba(230, 230, 179);
-    /* --light-yellow: rgba(255, 255, 204); */
-    /* --lighter-yellow: rgba(255, 255, 229); */
     --body-font: 'Segoe UI',
         Tahoma,
         Geneva,
@@ -17,6 +12,11 @@
     --padding-left: 2rem;
 }
 
+/* --medium-olive-green: rgba(78, 83, 59); */
+/* --light-olive-green: rgba(129, 134, 74); */
+/* --lighter-green: rgba(178, 178, 127); */
+/* --light-yellow: rgba(255, 255, 204); */
+/* --lighter-yellow: rgba(255, 255, 229); */
 * {
     margin: 0;
     padding: 0;
