@@ -112,6 +112,7 @@ article p {
 /*SECTION*/
 section {
     background-color: var(--beige);
+    color: black;
 }
 
 section h2 {
