@@ -83,7 +83,7 @@ header nav a {
 /*MAIN*/
 
 /*ARTICLE*/
-article {
+.hero article {
     margin-top: 2rem;
     width: 100%;
     display: block;
@@ -144,7 +144,7 @@ footer nav {
 
 /*HERO SPECIFIC RULES*/
 
-h1 {
+.hero h1 {
     position: absolute;
     clear: both;
     top: 4.8vw;
