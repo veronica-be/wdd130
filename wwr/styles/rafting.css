@@ -1,0 +1,222 @@
+:root {
+    --dark-olive-green: rgba(99, 107, 47);
+    --medium-olive-green: rgba(78, 83, 59);
+    --light-olive-green: rgba(129, 134, 74);
+    --dark-green: rgba(51, 51, 0);
+    --lighter-green: rgba(178, 178, 127);
+    --lightest-green: rgba(204, 204, 153);
+    --beige: rgba(230, 230, 179);
+    --light-yellow: rgba(255, 255, 204);
+    --lighter-yellow: rgba(255, 255, 229);
+    --body-font: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+    --black: black;
+    --padding-left: 2rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*BODY OR ENGLOBES MANY*/
+body {
+    font-family: var(--body-font);
+    color: var(--black);
+    background-color: var(--dark-green);
+}
+
+header,
+main,
+footer {
+    width: 100%;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: var(--black);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+header {
+    background-color: rgba(51, 51, 0);
+}
+
+header img {
+    float: left;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 6rem;
+    height: auto;
+
+}
+
+header nav li {
+    display: inline-block;
+    width: auto;
+    padding: 1rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+header nav a {
+    color: white;
+
+}
+
+/*MAIN*/
+
+/*ARTICLE*/
+article {
+    margin-top: 2rem;
+    width: 100%;
+    display: block;
+    background-color: var(--dark-olive-green);
+    padding-inline: 1rem;
+    height: 35vw;
+
+}
+
+article h2 {
+    color: white;
+    padding-top: 1.5rem;
+    padding-left: var(--padding-left);
+    font-size: 3vw;
+
+}
+
+article p {
+    color: white;
+    padding-left: var(--padding-left);
+    text-align: justify;
+    font-size: 1.8vw;
+
+}
+
+/*SECTION*/
+section {
+    background-color: var(--beige);
+}
+
+section h2 {
+    padding-left: var(--padding-left);
+    padding-top: 2rem;
+    font-size: 3vw;
+}
+
+section p {
+    margin-top: 1rem;
+    padding-left: var(--padding-left);
+    padding-right: var(--padding-left);
+    text-align: justify;
+    font-size: 1.8vw;
+    padding-bottom: 2rem;
+}
+
+/*FOOTER*/
+footer p {
+    color: whitesmoke;
+    width: auto;
+    display: inline;
+    padding-left: 1rem;
+}
+
+footer nav {
+    display: inline-block;
+    width: auto;
+}
+
+footer li {
+    display: inline;
+
+}
+
+/*HERO SPECIFIC RULES*/
+
+h1 {
+    position: absolute;
+    clear: both;
+    top: 4.8vw;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    background-color: none;
+    color: white;
+    text-shadow: 0.1vw 0.5vw red;
+    font-size: 5vw;
+}
+
+.hero article img {
+    /*happy clients */
+    float: right;
+    height: 35vw;
+    width: auto;
+    padding-left: 3rem;
+}
+
+.hero img {
+    /*our main photo*/
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+/*CLASSES*/
+.splash-regular {
+    font-family: "Splash", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-text {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.adventure {
+    width: 100%;
+    text-align: center;
+    background-color: var(--lightest-green);
+
+}
+
+.adventure h2 {
+    padding: 1rem;
+    margin: 0;
+    font-size: 5vw;
+    color: black;
+    text-shadow: 0.1vw 0.1vw white;
+}
