@@ -21,7 +21,10 @@ nav {
     Padding, or area between the content and border is set to 10 pixels for readability.  */
 
     background-color: var(--color-olive-green);
-    padding: 0px;
+    padding: 1rem;
+    /*ADDITION WEEK 4*/
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav a {
@@ -34,6 +37,9 @@ nav a {
     color: var(--contrast-text-color);
     display: block;
     padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 h1 {
@@ -44,6 +50,7 @@ h1 {
     color: var(--text-color);
     font-family: var(--heading-font);
     padding: 1rem;
+    border-bottom: 0.1rem solid black;
 }
 
 main img {
@@ -77,9 +84,9 @@ p {
 
 }
 
-main {
+/* main {
     max-width: 830px;
-}
+} */
 
 aside img {
     margin: 0;
@@ -97,7 +104,7 @@ aside h2 {
     text-align: center;
 }
 
-aside {
+/*aside {
     position: relative;
     width: 20em;
     margin: 1rem;
@@ -106,13 +113,12 @@ aside {
     background-color: var(--color-olive-green);
     color: var(--contrast-text-color);
     text-align: center;
-}
+}*/
 
-footer {
+/* footer {
     margin-top: 1rem;
     border-top: 2rem;
-    text-align: center;
-}
+} */
 
 /*Class Selectors*/
 
@@ -128,5 +134,44 @@ footer {
 
 .box a {
     display: block;
+    color: var(--contrast-text-color);
+}
+
+/*WEEK´S 4 ADDITIONS*/
+
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+.grid {
+    /*Make this new div a CSS grid display with the 
+    aside on the left and the main element on the right as shown below.*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+main {
+    grid-column: 2/3;
+    align-items: center
+}
+
+aside {
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 1rem;
+    border: 1rem solid var(--contrast-text-color);
+    padding: 15px;
+    background-color: var(--color-olive-green);
     color: var(--contrast-text-color);
 }
