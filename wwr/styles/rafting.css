@@ -162,14 +162,21 @@ section p {
 
 /*FOOTER*/
 footer {
+    display: grid;
     background-color: var(--dark-green);
+    grid-template-columns: 3.5fr 1fr;
 }
 
 footer p {
     color: whitesmoke;
     padding-left: 1rem;
+    justify-content: center;
+    place-self: center;
 }
 
+footer nav {
+    place-self: end;
+}
 
 
 /*HERO SPECIFIC RULES*/
@@ -212,6 +219,7 @@ footer p {
 
 .socialmedia a {
     text-decoration: none;
+    display: inline;
 }
 
 .hero {
