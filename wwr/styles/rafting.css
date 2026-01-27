@@ -125,13 +125,14 @@ article p {
 /*SECTION*/
 .history {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
 }
 
 
-section p img {
-    display: float;
-    float: none;
-    width: 40%;
+section img {
+    align-self: center;
+    width: 100%;
     height: auto;
 }
 
@@ -141,6 +142,7 @@ section {
 }
 
 section h2 {
+    grid-column: 1/4;
     padding-left: var(--padding-left);
     padding-top: 2rem;
     font-size: 3vw;
@@ -153,7 +155,7 @@ section p {
     padding-left: var(--padding-left);
     padding-right: var(--padding-left);
     text-align: justify;
-    width: 40%;
+
     font-size: 1.8vw;
     padding-bottom: 2rem;
 }
