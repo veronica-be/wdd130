@@ -135,6 +135,8 @@ aside h2 {
 .box a {
     display: block;
     color: var(--contrast-text-color);
+    text-decoration: none;
+    
 }
 
 /*WEEK´S 4 ADDITIONS*/
