@@ -234,10 +234,10 @@ footer nav {
 }
 
 .adventure {
-    width: 100%;
     text-align: center;
     background-color: var(--lightest-green);
-
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .adventure h2 {
@@ -246,4 +246,20 @@ footer nav {
     font-size: 5vw;
     color: black;
     text-shadow: 0.1vw 0.1vw white;
+}
+
+.adventure div figure img {
+    width: 18vw;
+}
+
+.adventure div figure figcaption {
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.adventure div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: no-wrap;
 }
