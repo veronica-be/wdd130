@@ -261,5 +261,4 @@ footer nav {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    flex-wrap: no-wrap;
 }
