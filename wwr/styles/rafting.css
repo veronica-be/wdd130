@@ -13,7 +13,7 @@
 }
 
 /*--dark-olive-green: rgba(99, 107, 47);*/
-/* --medium-olive-green: rgba(78, 83, 59); */
+/*--medium-olive-green: rgba(78, 83, 59); */
 /* --light-olive-green: rgba(129, 134, 74); */
 /* --lighter-green: rgba(178, 178, 127); */
 /* --light-yellow: rgba(255, 255, 204); */
@@ -75,7 +75,6 @@ header nav {
     align-items: center;
 }
 
-
 header nav a {
     color: white;
     text-decoration: none;
@@ -101,7 +100,6 @@ header nav a {
 
 }
 
-
 article h2 {
     color: white;
     padding-top: 1rem;
@@ -119,7 +117,6 @@ article p {
     font-size: 1.8vw;
     background-color: var(--dark-olive-green);
 
-
 }
 
 /*SECTION*/
@@ -128,7 +125,6 @@ article p {
     grid-template-columns: repeat(3, 1fr);
 
 }
-
 
 section img {
     align-self: center;
@@ -177,7 +173,6 @@ footer p {
 footer nav {
     place-self: end;
 }
-
 
 /*HERO SPECIFIC RULES*/
 
