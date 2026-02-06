@@ -25,50 +25,66 @@
 
         </nav>
     </header>
-    <main class="grid">
-        <div>
+    <main>
 
-            <article>
-                <h1 class="permanent-marker-regular">Whitewater Rafting Corporation</h1>
-                <p>Plaça Catarina Albert, 25560 Sort, Lleida</p>
-                <p>Lleida, Spain</p>a
-                <p>+34 973 621 462</p>
-                <p>info@whitewater.com</p>
-            </article>
-            <div class="map">
-                <iframe
+
+        <article class="adventure">
+            <h1>Whitewater Rafting Corporation</h1>
+            <p>Plaça Catarina Albert, 25560 Sort, Lleida</p>
+            <p>Lleida, Spain</p>
+            <p>+34 973 621 462</p>
+            <p>info@whitewater.com</p>
+        </article>
+        <div class="map_form_contact">
+            <div>
+
+                <iframe class="map"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2945.676120364918!2d1.1288151812796954!3d42.413341321136244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a605dec692e217%3A0x59af785b36b4b182!2sLa%20Rafting%20Company!5e0!3m2!1ses-419!2ses!4v1770360586998!5m2!1ses-419!2ses"
                   width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             </div>
 
-            <h2>Info Request</h2>
-            <form>
+
+            <form class="form grid">
+                <h2>Info Request</h2>
+
                 <label for="name">NAME</label>
                 <input type="text" id="name" name="name" placeholder="Type here" required>
+
+
                 <label for="email">EMAIL</label>
                 <input type="email" id="email" name="email" placeholder="example@email.com"
                   required>
+
+
                 <p>MESSAGE PURPOSE</p>
+                <div class="grid">
+                    <div>
+                        <input type="radio" id="general" name="purpose" value="" required>
 
-                <input type="radio" id="general" name="purpose" value="" required>
-                <label for="general">General Inquiry</label>
+                        <label for="general">General Inquiry</label>
+                    </div>
 
-                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-                <label for="reservation">Reservation Question</label>
-
-                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-                <label for="suggestion">Website Suggestion</label>
-
+                    <div><input type="radio" id="reservation" name="purpose"
+                          value="Reservation Question">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="suggestion" name="purpose"
+                          value="Website Suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </div>
                 <label for="message">MESSAGE</label>
-                <textarea id="message" name="message" placeholder="Type here" required></textarea>
+                <textarea class="grid_column_span" id="message" name="message"
+                  placeholder="Type here" required></textarea>
+                <div class="grid_column_span">
+                    <input type="checkbox" id="suscribe" name="suscribe">
+                    <label for="suscribe">Subscribe me to the monthly newsletter</label>
+                </div>
 
-                <input type="checkbox" id="suscribe" name="suscribe">
-                <label for="suscribe">Subscribe me to the monthly newsletter</label>
-
-
-                <button type="submit">Get in Touch!</button>
+                <button class="grid_column_span button" type="submit">Get in Touch!</button>
 
             </form>
 
@@ -76,7 +92,7 @@
         </div>
 
 
-        <section>
+        <section class="adventure serve">
             <h2>We Are Here to Serve You</h2>
             <div>
                 <figure>
