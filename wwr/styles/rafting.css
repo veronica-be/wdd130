@@ -294,6 +294,7 @@ h1 {
     height: 100%;
     justify-content: center;
     align-content: center;
+    border: 1rem;
 
 }
 
@@ -334,6 +335,7 @@ p {
 }
 
 .serve div figure figcaption,
-.serve h2 {
+.serve h2,
+.serve p {
     color: whitesmoke;
 }
