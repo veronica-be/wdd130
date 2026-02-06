@@ -338,3 +338,7 @@ p {
 .serve p {
     color: whitesmoke;
 }
+
+.serve div figure figcaption span {
+    display: block;
+}
