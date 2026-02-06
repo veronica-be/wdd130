@@ -88,7 +88,7 @@ header nav a {
     display: grid;
 }
 
-/*ARTICLE*/
+/*DIV ARTICLE class=hero*/
 .hero article {
     width: 100%;
     /* background-color: var(--dark-olive-green); */
@@ -100,7 +100,7 @@ header nav a {
 
 }
 
-article h2 {
+.hero h2 {
     color: white;
     padding-top: 1rem;
     padding-left: var(--padding-left);
@@ -109,7 +109,7 @@ article h2 {
 
 }
 
-article p {
+.hero article p {
     color: white;
     padding-left: var(--padding-left);
     padding-bottom: 1rem;
@@ -119,25 +119,22 @@ article p {
 
 }
 
-/*SECTION*/
+/*SECTION class=history*/
 .history {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    background-color: var(--beige);
+    color: black;
 
 }
 
-section img {
+.history img {
     align-self: center;
     width: 100%;
     height: auto;
 }
 
-section {
-    background-color: var(--beige);
-    color: black;
-}
-
-section h2 {
+.history h2 {
     grid-column: 1/4;
     padding-left: var(--padding-left);
     padding-top: 2rem;
@@ -145,7 +142,7 @@ section h2 {
     text-align: center;
 }
 
-section p {
+.history p {
     display: inline-block;
     margin-top: 1rem;
     padding-left: var(--padding-left);
