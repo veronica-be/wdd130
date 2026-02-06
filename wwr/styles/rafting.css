@@ -38,7 +38,6 @@ footer {
     margin: 0;
 }
 
-h1,
 h2 {
     font-family: 'Trebuchet MS', sans-serif;
     color: var(--black);
@@ -172,14 +171,16 @@ footer nav {
 }
 
 /*HERO SPECIFIC RULES*/
-
-.hero h1 {
+h1 {
     width: 100%;
-    padding: 6rem 0 0 0;
     text-align: center;
     color: white;
     text-shadow: 0.1vw 0.5vw red;
     font-size: 5vw;
+}
+
+.hero h1 {
+    padding: 6rem 0 0 0;
     position: absolute;
     top: 5vw;
 }
