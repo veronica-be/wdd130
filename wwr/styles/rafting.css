@@ -2,8 +2,10 @@
     --dark-olive-green-seven-opacity: rgba(99, 107, 47, 0.7);
     --dark-olive-green: rgba(99, 107, 47);
     --dark-green: rgba(51, 51, 0);
-    --lightest-green: rgba(204, 204, 153);
+    --light-olive-green: rgba(129, 134, 74);
+    --medium-olive-green: rgba(78, 83, 59);
     --beige: rgba(230, 230, 179);
+    --lightest-green: rgba(178, 178, 127);
     --body-font: 'Segoe UI',
         Tahoma,
         Geneva,
@@ -14,7 +16,6 @@
     --marron-obscuro: rgba(101, 67, 33);
 }
 
-/*--dark-olive-green: rgba(99, 107, 47);*/
 /*--medium-olive-green: rgba(78, 83, 59); */
 /* --light-olive-green: rgba(129, 134, 74); */
 /* --lighter-green: rgba(178, 178, 127); */
@@ -535,4 +536,118 @@ p {
     margin: 1rem;
     border-radius: 8px;
 
+}
+
+/*TRIPS HTML*/
+
+.trips_hero h1 {
+    margin-top: -4rem;
+    margin-left: 2rem;
+    width: 19rem;
+    text-align: left;
+}
+
+.trips_hero h2 {
+    text-align: left;
+    margin-top: -9rem;
+    font-size: 1.5rem;
+}
+
+.trips_hero {
+    margin-bottom: 4rem;
+}
+
+.three_equal_columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.two_elements_grid_centered {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 2fr) 1fr;
+    grid-gap: 0.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0.5rem;
+}
+
+#devil-cauldron {
+    grid-column: 2/3;
+}
+
+#thunder-run {
+    grid-column: 3/4;
+}
+
+.table_design table caption {
+    background-color: var(--medium-olive-green);
+    margin-top: 5rem;
+    padding: 2rem 10%;
+    text-align: justify;
+}
+
+.table_design table {
+
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border: 0.5rem solid;
+    margin: 2rem 10%;
+    justify-self: center;
+
+}
+
+.table_design table thead th,
+.table_design table tbody td {
+    padding: 0.5rem;
+    text-align: center;
+    border: 2px solid whitesmoke;
+}
+
+.article p {
+    text-align: justify;
+    padding: 0.5rem 0;
+    padding-right: 1rem;
+}
+
+.article {
+    padding-left: 10%;
+    padding-bottom: 2rem;
+}
+
+.article h2 {
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+}
+
+.article ol li,
+.article ul li {
+    padding: 0.5rem 1rem 0rem 0rem;
+}
+
+.article ol,
+.article ul {
+    padding-left: 1rem;
+}
+
+.article ul ul {
+    padding-left: 1rem;
+}
+
+.gold_flex_column h2,
+.gold_flex_column p {
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0, 0.4);
+    width: 10rem;
+    align-self: center;
+}
+
+.black_translucent {
+    background-color: rgb(0, 0, 0, 0.4);
+    color: whitesmoke;
+    font-size: larger;
+    width: 9rem;
+    align-self: center;
 }
