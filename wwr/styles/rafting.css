@@ -163,6 +163,7 @@ footer {
     display: grid;
     background-color: var(--dark-green);
     grid-template-columns: 3.5fr 1fr;
+    border-top: 1px solid whitesmoke;
 }
 
 footer p {
@@ -174,6 +175,7 @@ footer p {
 
 footer nav {
     place-self: end;
+    display: flex;
 }
 
 /*HERO SPECIFIC RULES*/
@@ -370,18 +372,167 @@ p {
 
 }
 
-.purpose {
-    grid-column: 1/2;
-    grid-row: 1/2;
+.four_column {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    margin: 1.5rem 0.5rem;
 }
 
-.offer {
-    grid-column: 3/5;
-    grid-row: 1/2;
+.column_with_img_bottom {
+    background-color: var(--marron-obscuro);
+    display: grid;
 }
 
-.image {
-    grid-column: 1/5;
+.column_with_img_bottom img {
+    width: 100%;
+    height: auto;
+    align-self: end;
+    justify-self: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.column_with_img_bottom div h2 {
+    color: whitesmoke;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-weight: 800;
+    font-size: 1.1rem;
+    background-color: var(--dark-olive-green);
+}
+
+.column_with_img_bottom div p {
+    text-align: justify;
+    margin: 1rem 1rem;
+    font-size: 1rem;
+
+}
+
+.two_column {
+    grid-template-columns: 4fr 3fr;
+
+}
+
+.button_index {
+    box-sizing: border-box;
+    grid-column: 2/3;
+    position: relative;
+}
+
+.button_index img {
+
+    grid-column: 2/3;
     grid-row: 1/2;
-    white-space: 157;
+    width: auto;
+    height: 100%;
+    position: absolute;
+    padding: 1rem 0;
+    display: block;
+    justify-self: center;
+
+
+}
+
+.button_index h2 {
+    margin-top: 3rem;
+}
+
+.button_index h2,
+.button_index p {
+    color: whitesmoke;
+    position: relative;
+    justify-self: center;
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    justify-self: center;
+}
+
+
+
+.bring_forward {
+    position: static;
+    z-index: 100;
+}
+
+.newsletter {
+    margin: 1rem;
+    border-top: 0.5rem solid whitesmoke;
+    border-bottom: 0.5rem solid whitesmoke;
+}
+
+.newsletter h2 {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    padding: 1rem 0;
+}
+
+.newsletter fieldset {
+    padding-bottom: 1rem;
+}
+
+.newsletter legend {
+    font-size: 1rem;
+    color: whitesmoke;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.newsletter div label {
+    font-size: 1rem;
+    color: whitesmoke;
+    margin: 0rem 1rem 0rem 2rem;
+}
+
+.newsletter div input {
+    font-size: 1rem;
+    color: black;
+    padding: 0.5rem 2rem;
+    display: inline-block;
+    width: 50%;
+}
+
+
+
+.select_apply {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    margin: 1.5rem 0;
+}
+
+.select_apply p {
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.select_apply div label input,
+.term label input {
+    height: 1rem;
+    width: 2rem;
+}
+
+.select_apply div label {
+    font-size: 1rem;
+}
+
+
+
+.button_submit {
+    background-color: whitesmoke;
+    border: none;
+    color: var(--dark-green);
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+
 }
