@@ -1,6 +1,5 @@
 :root {
     --dark-olive-green-seven-opacity: rgba(99, 107, 47, 0.7);
-    --dark-olive-green: rgba(99, 107, 47, 1);
     --dark-green: rgba(51, 51, 0, 1);
     --light-olive-green: rgba(129, 134, 74, 1);
     --medium-olive-green: rgba(78, 83, 59, 1);
@@ -287,7 +286,7 @@ h1 {
 .map-form-contact {
     display: grid;
     grid-template-columns: 8fr 8fr 0px;
-    background-color: var(--dark-olive-green);
+    background-color: var(--medium-olive-green);
     column-gap: 1rem;
 }
 
