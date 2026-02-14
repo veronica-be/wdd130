@@ -451,6 +451,18 @@ p {
     justify-self: center;
 }
 
+.flex-column h2,
+.flex-column p {
+    position: static;
+    z-index: 99;
+}
+
+.flex-column p {
+    width: 13rem;
+    align-self: center;
+    padding: 0.5rem;
+}
+
 
 
 .bring-forward {
