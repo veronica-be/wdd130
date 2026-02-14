@@ -192,7 +192,7 @@ h1 {
 .hero article img {
     /*happy clients */
     height: auto;
-    width: 1fr;
+    width: 100%;
     grid-column: 2/3;
     grid-row: 1/3;
 
