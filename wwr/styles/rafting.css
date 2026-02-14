@@ -645,7 +645,7 @@ p {
 }
 
 .black_translucent {
-    background-color: rgb(0, 0, 0, 0.4);
+    background-color: rgb(0, 0, 0, 0.7);
     color: whitesmoke;
     font-size: larger;
     width: 9rem;
