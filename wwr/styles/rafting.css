@@ -637,6 +637,14 @@ p {
     background-color: rgb(0, 0, 0, 0.4);
     width: 10rem;
     align-self: center;
+    position: static;
+    z-index: 99;
+
+}
+
+.black-flex-column p {
+
+    padding: 0.5rem;
 }
 
 .black-translucent {
